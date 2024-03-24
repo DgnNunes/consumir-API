@@ -1,6 +1,6 @@
-let muscle = 'biceps';
+let type = 'stretching';
 
-fetch('https://api.api-ninjas.com/v1/exercises?muscle=' + muscle, {
+fetch('https://api.api-ninjas.com/v1/exercises?type=' + type, {
     method: 'GET',
     headers: { 'X-Api-Key': 'r39tgCKGIcWEgPClOnD1JeiydHJa5Kug2hP41Khp'}
 })
